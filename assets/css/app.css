@@ -18,3 +18,17 @@ body {
 #header {
     background-color: #f3f2da;
 }
+
+#menu-makanan {
+    margin-top: 32px;
+}
+
+.card {
+    margin: 16px 0;
+}
+
+@media (max-width: 768px) {
+    .card {
+        width: 400px;
+    }
+}
