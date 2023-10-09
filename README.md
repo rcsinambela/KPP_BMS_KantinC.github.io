@@ -1,5 +1,5 @@
 # KPP_BMS_KantinC.github.io
-Untuk membuat tim Anda dapat bergabung ke sebuah proyek dan dapat melakukan pull dan push dari lokal/repo, Anda perlu mengikuti beberapa langkah umum dalam pengelolaan proyek kolaboratif menggunakan sistem kontrol versi seperti Git. Berikut adalah panduan umumnya:
+Untuk dapat bergabung ke sebuah proyek dan dapat melakukan pull dan push dari lokal/repo, Anda perlu mengikuti beberapa langkah umum dalam pengelolaan proyek kolaboratif menggunakan sistem kontrol versi seperti Git. Berikut adalah panduan umumnya:
 
 1. **Clone Repo:**
    - Setiap anggota tim harus melakukan "cloning" repo proyek ke lokal masing-masing dengan menggunakan perintah `git clone`. Contohnya:
