@@ -37,3 +37,6 @@ Untuk dapat bergabung ke sebuah proyek dan dapat melakukan pull dan push dari lo
 
 8. **Sinkronisasi dengan Cabang Utama (Branch):**
     - Agar selalu mengikuti perubahan terbaru di cabang utama proyek, anggota tim dapat melakukan pull dari cabang utama (`git pull origin main`) secara teratur.
+
+** Link:**
+    - https://rycs123.github.io/KPP_BMS_KantinC.github.io/
