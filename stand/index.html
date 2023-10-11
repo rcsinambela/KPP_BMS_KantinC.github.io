@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./assets/css/app.css">
+
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg" id="navbar" style="height: 132px; padding: 0 180px;">
+        <div class="container-fluid">
+            <!-- logo -->
+            <a class="navbar-brand justify-content-start" href="#/">
+                <img src="./assets/images/logo.png" class="pt-1" alt="Logo" width="70px" height="auto"
+                    class="d-inline-block align-text-top">
+                <h2 style="display: inline-block; color: #FFFFFF;">Kantin</h2 style="display: inline-block; ">
+                <span style="color: #FFA101; display: inline-block;">
+                    <h2>C</h2>
+                </span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- link -->
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active text-white" aria-current="page" href="#"
+                        style="font-size: 20px;">Stand</a>
+                    <a class="nav-link" href="#" style="font-size: 20px;">Newsroom</a>
+                    <a class="nav-link" href="#" style="font-size: 20px;">Announcement</a>
+                    <a class="nav-link" href="#" style="font-size: 20px;">About Us</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid" id="header">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Stand</li>
+        </ol>
+        <div class="text header">
+            <h1>Kantin Mak Nun</h1>
+            <img src="assets/images/Jenis Stand_Makanan rumah.svg" alt="Makanan rumah">
+        </div>
+        <div class="icon-group">
+            <div class="icon-header">
+                <i class="bi bi-geo-alt-fill"></i>
+                <p class="d-inline-block" style="font-size: 16px;">Kantin Departemen Teknik Informatika</p>
+            </div>
+            <div class="icon-header">
+                <i class="bi bi-telephone-fill"></i>
+                <p class="d-inline-block" style="font-size: 16px;">089668134683</p>
+            </div>
+            <div class="icon-header">
+                <i class="bi bi-clock"></i>
+                <p class="d-inline-block" style="font-size: 16px;">07.00 - 16.00</p>
+            </div>
+        </div>
+        <div id="carouselExampleIndicators" class="carousel slide menu">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./assets/images/menu_1.jpg" class="d-block w-100" alt="menu_1">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/images/menu_2.jpg" class="d-block w-100" alt="menu_2">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <div class="container-fluid" id="menu-makanan">
+        <h2 style="text-transform: uppercase;">menu makanan</h2>
+        <div class="row">
+            <div class="col-12 col-md-6 gy-4">
+                <div class="card h-100 w-100">
+                    <img src="./assets/images/makanan_1.jpg" class="card-img-top img-fluid" alt="menu makanan 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Pangsit Mie Ayam</h5>
+                        <div class="d-flex">
+                            <p class="card-text me-auto">Rp.14.000</p>
+                            <i class="bi bi-cup-hot-fill text-warning"></i>
+                            <i class="bi bi-cup-hot-fill text-warning"></i>
+                            <i class="bi bi-cup-hot-fill text-warning"></i>
+                            <i class="bi bi-cup-hot-fill text-warning"></i>
+                            <i class="bi bi-cup-hot-fill text-warning"></i>
+                            <p style="color: #01A4FF;">(4 Ulasan)</p>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <a href="#" class="card-link">
+                            <p class="d-inline-block">Beri Ulasan</p>
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 gy-4">
+                <div class="card h-100 w-100">
+                    <img src="./assets/images/makanan_1.jpg" class="card-img-top img-fluid" alt="menu makanan 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Pangsit Mie Ayam</h5>
+                        <div class="d-flex">
+                            <p class="card-text me-auto">Rp.14.000</p>
+                            <i class="bi bi-cup-hot-fill text-warning"></i>
+                            <i class="bi bi-cup-hot-fill text-warning"></i>
+                            <i class="bi bi-cup-hot-fill text-warning"></i>
+                            <i class="bi bi-cup-hot-fill text-warning"></i>
+                            <i class="bi bi-cup-hot-fill text-warning"></i>
+                            <p style="color: #01A4FF;">(4 Ulasan)</p>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <a href="#" class="card-link">
+                            <p class="d-inline-block">Beri Ulasan</p>
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 gy-4">
+                <div class="card h-100 w-100">
+                    <img src="./assets/images/makanan_1.jpg" class="card-img-top img-fluid" alt="menu makanan 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Pangsit Mie Ayam</h5>
+                        <div class="d-flex">
+                            <p class="card-text me-auto">Rp.14.000</p>
+                            <i class="bi bi-cup-hot-fill text-warning"></i>
+                            <i class="bi bi-cup-hot-fill text-warning"></i>
+                            <i class="bi bi-cup-hot-fill text-warning"></i>
+                            <i class="bi bi-cup-hot-fill text-warning"></i>
+                            <i class="bi bi-cup-hot-fill text-warning"></i>
+                            <p style="color: #01A4FF;">(4 Ulasan)</p>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <a href="#" class="card-link">
+                            <p class="d-inline-block">Beri Ulasan</p>
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 gy-4">
+                <div class="card h-100 w-100">
+                    <img src="./assets/images/makanan_1.jpg" class="card-img-top img-fluid" alt="menu makanan 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Pangsit Mie Ayam</h5>
+                        <div class="d-flex">
+                            <p class="card-text me-auto">Rp.14.000</p>
+                            <i class="bi bi-cup-hot-fill text-warning"></i>
+                            <i class="bi bi-cup-hot-fill text-warning"></i>
+                            <i class="bi bi-cup-hot-fill text-warning"></i>
+                            <i class="bi bi-cup-hot-fill text-warning"></i>
+                            <i class="bi bi-cup-hot-fill text-warning"></i>
+                            <p style="color: #01A4FF;">(4 Ulasan)</p>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <a href="#" class="card-link">
+                            <p class="d-inline-block">Beri Ulasan</p>
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
