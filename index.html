@@ -10,14 +10,16 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="./assets/css/app.css">
 
+    
 
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg fixed-top" id="navbar" style="height: 100px; padding: 0 180px;">
+    <!-- Navbar started-->
+    <nav class="navbar navbar-expand-lg fixed-top" id="navbar" style="height: 85px; padding: 0 180px;">
         <div class="container-fluid">
             <!-- logo -->
-            <a class="navbar-brand justify-content-start" href="./index.html">
+            <a class="navbar-brand justify-content-start" href="#/">
                 <img src="./assets/images/logo.png" class="pt-1" alt="Logo" width="70px" height="auto"
                     class="d-inline-block align-text-top">
                 <h2 style="display: inline-block; color: #FFFFFF;">Kantin</h2 style="display: inline-block; ">
@@ -32,53 +34,64 @@
             <!-- link -->
             <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-link" href="./stand/index.html" style="font-size: 20px;">Stand</a>
-                    <a class="nav-link" href="./news/index.html" style="font-size: 20px;">Newsroom</a>
-                    <a class="nav-link" href="./announcement/index.html" style="font-size: 20px;">Announcement</a>
-                    <a class="nav-link" href="./about/index.html" style="font-size: 20px;">About Us</a>
+                    <a class="nav-link px-4" aria-current="page" href="#" style="font-size: 18px;">Stand</a>
+                    <a class="nav-link px-4" href="#" style="font-size: 18px;">Newsroom</a>
+                    <a class="nav-link px-4" href="#" style="font-size: 18px;">Announcement</a>
+                    <a class="nav-link px-4" href="#" style="font-size: 18px;">About Us</a>
                 </div>
             </div>
         </div>
     </nav>
+    <!-- Navbar Ended-->
 
-<<<<<<< Updated upstream
-=======
+
+
     <div class="container-fluid" id="header" style="padding: 150px 180px 0;">
+
+    <div class="container-fluid" id="header" style="padding: 100px 180px 0;">
+        <!-- WEBPATH -->
+
         <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="#">Home</a></li>
             <li class="breadcrumb-item active" aria-current="page">Stand</li>
         </ol>
         <div class="text header">
-            <h1>Kantin Mak Nun</h1>
-            <img src="assets/images/Jenis Stand_Makanan rumah.svg" alt="Makanan rumah">
+            <h1 style="font-size: 40px;">Kantin Mak Nun</h1>
+            <img src="assets/images/Jenis Stand_Makanan rumah.svg" alt="Makanan rumah" width="150" height="100%">
         </div>
-        <div class="icon-group">
+        <!-- WEBPATH ENDED-->
+
+        <!--Lokasi, No telp, Jam buka-->
+        <div class="icon-group d-flex mt-3">
             <div class="icon-header">
                 <i class="bi bi-geo-alt-fill"></i>
                 <p class="d-inline-block" style="font-size: 16px;">Kantin Departemen Teknik Informatika</p>
             </div>
-            <div class="icon-header">
+            <div class="icon-header ms-4">
                 <i class="bi bi-telephone-fill"></i>
                 <p class="d-inline-block" style="font-size: 16px;">089668134683</p>
             </div>
-            <div class="icon-header">
+            <div class="icon-header ms-4">
                 <i class="bi bi-clock"></i>
                 <p class="d-inline-block" style="font-size: 16px;">07.00 - 16.00</p>
             </div>
         </div>
-        <div id="carouselExampleIndicators" class="carousel slide menu">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-                    aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                    aria-label="Slide 2"></button>
-            </div>
+        <!--Lokasi, No telp, Jam buka-->
+
+        <!--Carousel-->
+        <div id="carouselExampleIndicators" class="carousel slide menu" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="./assets/images/menu_1.jpg" class="d-block w-100" alt="menu_1">
+                    <div class="d-flex justify-content-between">
+                        <img src="./assets/images/menu_1.jpg" class="main-image d-block w-70" alt="menu_1">
+                        <img src="./assets/images/menu_2.jpg" class="secondary-image d-block w-30" alt="menu_2">
+                    </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="./assets/images/menu_2.jpg" class="d-block w-100" alt="menu_2">
+                    <div class="d-flex justify-content-between">
+                        <img src="./assets/images/menu_1.jpg" class="main-image d-block w-70" alt="menu_2">
+                        <img src="./assets/images/menu_2.jpg" class="secondary-image d-block w-30" alt="menu_3">
+                    </div>
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
@@ -92,9 +105,10 @@
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
-    </div>
+        
+     <!--Carousel Ended-->
 
-    <div class="container-fluid" id="menu-makanan">
+    <div class="container-fluid" id="menu-makanan" style="padding: 0 180px;">
         <h2 style="text-transform: uppercase;">menu makanan</h2>
         <div class="row">
             <div class="col-12 col-md-6 gy-4">
@@ -193,7 +207,7 @@
 
 
     </div>
->>>>>>> Stashed changes
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
