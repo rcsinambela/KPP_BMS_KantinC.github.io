@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="../assets/css/app.css">
+
+
     <style>
+        
         body {
             font-family: "Inter", sans-serif;
         }
@@ -39,9 +41,12 @@
             width: 1080px;
             /* Match the width of the first card */
         }
-    </style>
+    
+        .card.mb-3.custom-card:hover {
+            cursor: pointer;
+        }
+        </style>
 </head>
-
 <body>
     <div class="container text-center mt-5" style="margin-top: 120x;">
         <h1 class="mb-4 bold-text">---</h1>
@@ -76,7 +81,6 @@
         </div>
     </nav>
     <!-- Navbar Ended-->
-    
     <div class="container text-center mt-5" style="margin-top: 120px;">
         <h1 class="mb-4 bold-text">BERITA TERBARU</h1>
     </div>
@@ -90,7 +94,6 @@
                             <!-- Set the column width to 6 (half the width) and adjust the height -->
                             <img src="../assets/images/makanan_1.jpg" class="img-fluid custom-image rounded-start"
                                 alt="..." style="width:720px ; height: 435px;">
-                            <!-- Adjust the image height to fill the left half of the card's height -->
                         </div>
                         <div class="col-md-6">
                             <div class="card-body">
@@ -105,78 +108,66 @@
             </div>
         </div>
     </div>
-    <div class="more-news-container">
-
-        <h2 class="mb-4 bold-text">Berita Lainnya</h2>
-    </div>
-    </div>
-    </div>
+                <div class="more-news-container">
+                    
+                    <h2 class="mb-4 bold-text">Berita Lainnya</h2>
+                </div>
+            </div>
+        </div>
     </div>
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <div class="card mb-3 custom-card" style="height: 256px;">
+                <div class="card mb-3 custom-card" style="height: 256px;" onclick="window.location.href='../article/index.html'">
                     <div class="row g-0">
                         <div class="col-md-4">
-                            <img src="../assets/images/menu_1.jpg" class="img-fluid custom-image rounded-start"
-                                alt="..." style="width:366px ;height:255px;"> <!-- Adjust the image height -->
+                            <img src="../assets/images/menu_1.jpg" class="img-fluid custom-image rounded-start" alt="..." style="width:366px ;height:255px;"> <!-- Adjust the image height -->
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
                                 <h5 class="card-title bold-text">Kantin Mak Nanun : Yang penting makanan sehat</h5>
-                                <p class="card-text">Diperkirakan sebelum covid, permintaan terhadap makanan sehat cukup
-                                    tinggi bagi kalangan mahasiswa di TC. Hal itulah jadi dasar, Mak Nun, seorang ibu
-                                    rumah tangga membangun kantin TC</p>
+                                <p class="card-text">Diperkirakan sebelum covid, permintaan terhadap makanan sehat cukup tinggi bagi kalangan mahasiswa di TC. Hal itulah jadi dasar, Mak Nun, seorang ibu rumah tangga membangun kantin TC</p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="card mb-3 custom-card" style="height: 256px;">
+                <div class="card mb-3 custom-card" style="height: 256px;" onclick="window.location.href='../article/index.html'">
                     <div class="row g-0">
                         <div class="col-md-4">
-                            <img src="../assets/images/menu_2.jpg" class="img-fluid custom-image rounded-start"
-                                alt="..." style="width:366px ; height:255px;">
+                            <img src="../assets/images/menu_5.jpg" class="img-fluid custom-image rounded-start" alt="..." style="width:366px ; height:255px;">
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
                                 <h5 class="card-title bold-text">Kantin Bu Sol : Komplit seperti bootstrap</h5>
-                                <p class="card-text">Kantin yang dikelola oleh Ibu dan Bapa Soleh ini menyajikan masakan
-                                    rumah karena menyesuaikan selera para Mahasiswa. Kantin ini buka dari hari Senin
-                                    sampa dengan Jumat mulai pukul delapan pagi sampai empat sore.</p>
+                                <p class="card-text">Kantin yang dikelola oleh Ibu dan Bapa Soleh ini menyajikan masakan rumah karena menyesuaikan selera para Mahasiswa. Kantin ini buka dari hari Senin sampa dengan Jumat mulai pukul delapan pagi sampai empat sore.</p>
                             </div>
                         </div>
                     </div>
                 </div>
-
-                <div class="card mb-3 custom-card" style="height: 256px;"> <!-- Set custom dimensions for the card -->
+                
+                <div class="card mb-3 custom-card" style="height: 256px;" onclick="window.location.href='../article/index.html'"> <!-- Set custom dimensions for the card -->
                     <div class="row g-0">
                         <div class="col-md-4">
-                            <img src="../assets/images/menu_3.jpg" class="img-fluid custom-image rounded-start"
-                                alt="..." style="width:366px ;height:255px;"> <!-- Adjust the image height -->
+                            <img src="../assets/images/menu_3.jpg" class="img-fluid custom-image rounded-start" alt="..." style="width:366px ;height:255px;"> <!-- Adjust the image height -->
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
                                 <h5 class="card-title bold-text">Kantin Mungil : Mungil-mungil nikmat</h5>
-                                <p class="card-text">Stand minuman yang buka pada hari kerja mulai pukul delapan sampai
-                                    empat sore ini menyediakan beberapa minuman dalam bentuk kotak, botol, maupun air
-                                    putih.</p>
+                                <p class="card-text">Stand minuman yang buka pada hari kerja mulai pukul delapan sampai empat sore ini menyediakan beberapa minuman dalam bentuk kotak, botol, maupun air putih.</p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="card mb-3 custom-card" style="height: 256px;"> <!-- Set custom dimensions for the card -->
+                <div class="card mb-3 custom-card" style="height: 256px;" onclick="window.location.href='../article/index.html'"> <!-- Set custom dimensions for the card -->
                     <div class="row g-0">
                         <div class="col-md-4">
-                            <img src="../assets/images/menu_4.jpg" class="img-fluid custom-image rounded-start"
-                                alt="..." style="width:366px ;height:255px;"> <!-- Adjust the image height -->
+                            <img src="../assets/images/menu_4.jpg" class="img-fluid custom-image rounded-start" alt="..." style="width:366px ;height:255px;"> <!-- Adjust the image height -->
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
 
                                 <h5 class="card-title bold-text">Kantin Omben's IF : Instan nan menyehatkan</h5>
-                                <p class="card-text">Stand minuman yang minuman terlarisnya adalah Good day Cappucino
-                                    ini menyediakan beberapa banyak macam minuman sachet yang instan sehingga mahasiswa
-                                    dapat disuguhkan dengan minuman yang menyegarkan.</p>
+                                <p class="card-text">Stand minuman yang minuman terlarisnya adalah Good day Cappucino ini menyediakan beberapa banyak macam minuman sachet yang instan sehingga mahasiswa dapat disuguhkan dengan minuman yang menyegarkan.</p>
                             </div>
                         </div>
                     </div>
@@ -184,10 +175,8 @@
             </div>
         </div>
     </div>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" 
         crossorigin="anonymous"></script>
 </body>
-
 </html>
