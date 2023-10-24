@@ -28,35 +28,35 @@ body {
 }
 
 /* homepage */
-.container-fluid.description{
+.container-fluid.description {
     background-color: #246871;
 }
-.text1{
+.text1 {
     color: white;
     font-size: 55px;
-    
 }
-.text2{
-    color: #FFA101;
+.text2 {
+    color: #ffa101;
     font-size: 55px;
 }
-.img_homepage img{
+.img_homepage img {
     margin-left: -55px;
 }
-.stand-c,.location{
-    background-color: #96BDC3;
+.stand-c,
+.location {
+    background-color: #96bdc3;
 }
-.stand-c-container{
+.stand-c-container {
     position: relative;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     border-radius: 0 30px 0 30px;
     -webkit-border-radius: 0 30px 0 30px;
     -moz-border-radius: 0 30px 0 30px;
     -ms-border-radius: 0 30px 0 30px;
     -o-border-radius: 0 30px 0 30px;
 }
-.location-container{
-    background-color: #FFFFFF;
+.location-container {
+    background-color: #ffffff;
     border-radius: 0 30px 0 30px;
     -webkit-border-radius: 0 30px 0 30px;
     -moz-border-radius: 0 30px 0 30px;
@@ -64,10 +64,10 @@ body {
     -o-border-radius: 0 30px 0 30px;
     overflow: hidden;
 }
-.img_location{
+.img_location {
     order: -1;
 }
-.daun{
+.daun {
     background-color: #246871;
     width: 200px;
     height: 60px;
@@ -79,24 +79,23 @@ body {
     -ms-border-radius: 0 30px 0 30px;
     -o-border-radius: 0 30px 0 30px;
 }
-.daun h2{
+.daun h2 {
     line-height: 60px;
     color: white;
 }
-.desc{
+.desc {
     background-color: #246871;
     height: 80px;
 }
-.desc p{
+.desc p {
     font-size: 20px;
-
 }
-footer{
+footer {
     background-color: #246871;
     min-height: 100px;
 }
-footer p{
-    color: #96BDC3;
+footer p {
+    color: #96bdc3;
 }
 @media (max-width: 768px) {
     .card {
